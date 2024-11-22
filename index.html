@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новогоднее приглашение</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page1" class="page active">
+        <div class="background" style="background-image: url('photo1.jpg');"></div>
+        <div class="content">
+            <h1>Привет, мое солнышко! 🌞</h1>
+            <button class="button" onclick="goToPage('page2')">Привеееттт</button>
+        </div>
+    </div>
+
+    <div id="page2" class="page">
+        <div class="background" style="background-image: url('photo2.jpg');"></div>
+        <div class="content">
+            <h1>У меня есть отлииииичное предложение на Новый год! 🎉</h1>
+            <button class="button" onclick="goToPage('page3')">Да</button>
+            <button class="button" onclick="goToPage('page4')">Нет</button>
+        </div>
+    </div>
+
+    <div id="page3" class="page">
+        <div class="background" style="background-image: url('photo3.jpg');"></div>
+        <div class="content">
+            <h1>Хочешь? 🥰</h1>
+            <button class="button" onclick="goToPage('page4')">Правда хочешь?</button>
+        </div>
+    </div>
+
+    <div id="page4" class="page">
+        <div class="background" style="background-image: url('photo4.jpg');"></div>
+        <div class="content">
+            <h1>Отлично, тогда готовься к незабываемому Новому году! 🎄</h1>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
